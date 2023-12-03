@@ -1,0 +1,15 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell\ListarArquivos]
+@="Listar Arquivos"
+"Icon"="C:\\Program Files\\LHRP\\listarArquivos\\lista.ico"
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell\ListarArquivos\command]
+@="\"C:\\Program Files\\LHRP\\listarArquivos\\listarArquivos.exe\" \"%V\""
+
+[HKEY_CLASSES_ROOT\*\shell\ListarArquivos]
+@="Listar Arquivos"
+"Icon"="C:\\Program Files\\LHRP\\listarArquivos\\lista.ico"
+
+[HKEY_CLASSES_ROOT\*\shell\ListarArquivos\command]
+@="\"C:\\Program Files\\LHRP\\listarArquivos\\listarArquivos.exe\" \"%1\""
